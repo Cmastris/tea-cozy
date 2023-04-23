@@ -62,6 +62,8 @@ main {
 .overlay-text {
     position: relative;
     z-index: 1;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 .px-05 {
