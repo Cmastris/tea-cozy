@@ -64,6 +64,17 @@ main {
     z-index: 1;
 }
 
+.px-05 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.w-1000 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
 
 /* ==== Components ==== */
 
@@ -89,6 +100,19 @@ main {
     margin-bottom: 0.5em;
 }
 
+.image-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.image-tile figcaption {
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 
 /* ==== Elements ==== */
 
@@ -98,7 +122,8 @@ h3,
 h4,
 h5,
 p,
-a {
+a,
+figcaption {
     color: seashell;
     opacity: 0.9;
 }
@@ -113,11 +138,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 2.1em;
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 h4 {
@@ -139,6 +164,10 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+figure {
+    margin: 1em;
 }
 
 
