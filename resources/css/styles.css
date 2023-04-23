@@ -125,6 +125,19 @@ h5 {
     font-size: 1.2em;
 }
 
+a:link {
+    color: seashell;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 
 /* ==== Miscellaneous ==== */
 
