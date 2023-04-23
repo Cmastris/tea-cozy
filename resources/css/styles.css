@@ -59,6 +59,14 @@ main {
     opacity: 0.4;
 }
 
+.overlay-text {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ==== Components ==== */
+
 .hero-container {
     display: flex;
     flex-direction: column;
@@ -79,11 +87,6 @@ main {
 .hero-container h4 {
     margin-top: 0.6em;
     margin-bottom: 0.5em;
-}
-
-.overlay-text {
-    position: relative;
-    z-index: 1;
 }
 
 
