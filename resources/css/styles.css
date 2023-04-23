@@ -71,6 +71,16 @@ main {
     height: 700px;
 }
 
+.hero-container h2 {
+    margin-top: 0.4em;
+    margin-bottom: 0.6em;
+}
+
+.hero-container h4 {
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+}
+
 .overlay-text {
     position: relative;
     z-index: 1;
