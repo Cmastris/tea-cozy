@@ -59,6 +59,10 @@ main {
     opacity: 0.4;
 }
 
+.bg-none {
+    background-color: transparent;
+}
+
 .overlay-text {
     position: relative;
     z-index: 1;
@@ -113,6 +117,29 @@ main {
     padding-top: 10px;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.text-tiles {
+    display: flex;  /* Heading and tiles are flex items */
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    min-height: 500px;
+    background-color: rgb(40, 40, 40);  /* On tablet & mobile beneath background image */
+}
+
+.text-tiles-heading {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.text-tile {
+    display: flex;  /* Tile text elements are (nested) flex items */
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+    z-index: 1;
 }
 
 
@@ -174,6 +201,11 @@ figure {
 
 
 /* ==== Miscellaneous ==== */
+
+#locations .bg-image {
+    background-image: url("../images/locations-background.jpg");
+    height: 500px;
+}
 
 #mission .bg-image {
     background-image: url("../images/mission-background.jpg");
