@@ -56,6 +56,10 @@ main {
     text-align: left;
 }
 
+.anchor {
+    scroll-margin-top: 140px;  /* Prevent top of content being obscured by fixed header */
+}
+
 .bg-image {
     position: absolute;  /* Apply opacity to image but not overlaying content */
     width: 1200px;
