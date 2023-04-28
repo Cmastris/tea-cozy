@@ -52,6 +52,10 @@ main {
 
 /* ==== Utilities ==== */
 
+.align-left {
+    text-align: left;
+}
+
 .bg-image {
     position: absolute;  /* Apply opacity to image but not overlaying content */
     width: 1200px;
@@ -68,6 +72,11 @@ main {
     z-index: 1;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+.mx-small {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .px-05 {
@@ -201,6 +210,10 @@ figure {
 
 
 /* ==== Miscellaneous ==== */
+
+#contact {
+    height: 200px;
+}
 
 #locations .bg-image {
     background-image: url("../images/locations-background.jpg");
